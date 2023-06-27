@@ -1,4 +1,4 @@
-# Analisis Nomor 1
+# Analisis Soal Nomor 1
 
 ## Berikut adalah analisis Algoritma Bubble Sort dan Algoritma Insertion Sort untuk kasus terburuk (worst case), kasus terbaik (best case), dan kasus rata-rata (average case):
 
@@ -44,7 +44,7 @@
 	- Jumlah rata-rata iterasi adalah sekitar (n * (n-1)) / 4.
 	- Oleh karena itu, kompleksitas waktu adalah O(n^2).
 
-# Analisis Nomor 2
+# Analisis Soal Nomor 2
 
 ## Berikut adalah analisis Algoritma TSP dan Algoritma Dijkstra untuk kasus terburuk (worst case), kasus terbaik (best case), dan kasus rata-rata (average case):
 
