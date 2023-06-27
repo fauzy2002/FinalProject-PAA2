@@ -1,6 +1,8 @@
-# Berikut adalah analisis algoritma Bubble Sort dan Insertion Sort untuk kasus terburuk (worst case), kasus terbaik (best case), dan kasus rata-rata (average case):
+# Analisis Nomor 1
 
-## Analisis Algoritma Bubble Sort:
+## Berikut adalah analisis algoritma Bubble Sort dan Insertion Sort untuk kasus terburuk (worst case), kasus terbaik (best case), dan kasus rata-rata (average case):
+
+### Analisis Algoritma Bubble Sort:
 
 1. Worst case:
 	- Kompleksitas waktu: O(n^2)
@@ -21,7 +23,7 @@
 	- Jumlah rata-rata iterasi adalah sekitar (n * (n-1)) / 4.
 	- Oleh karena itu, kompleksitas waktu adalah O(n^2).
 
-## Analisis Algoritma Insertion Sort:
+### Analisis Algoritma Insertion Sort:
 
 1. Worst case:
 	- Kompleksitas waktu: O(n^2)
@@ -41,3 +43,18 @@
 	- Dalam kasus rata-rata, kita mengasumsikan bahwa setiap permutasi elemen muncul dengan probabilitas yang sama.
 	- Jumlah rata-rata iterasi adalah sekitar (n * (n-1)) / 4.
 	- Oleh karena itu, kompleksitas waktu adalah O(n^2).
+
+# Analisis Nomor 2
+
+## Berikut adalah analisis Algoritma TSP dan Algoritma Dijkstra untuk kasus terburuk (worst case), kasus terbaik (best case), dan kasus rata-rata (average case):
+
+1. Worst case:
+    - Algoritma TSP (Brute Force): O(n!)
+        Pada kasus terburuk, di mana n adalah jumlah simpul/graf, algoritma TSP (Brute Force) akan memeriksa semua kemungkinan permutasi simpul. Jumlah permutasi adalah n!, sehingga kompleksitas waktu menjadi faktorial dari jumlah simpul. Ini menghasilkan kompleksitas waktu yang sangat tinggi dan tidak efisien, terutama saat jumlah simpul meningkat.
+    - Algoritma Dijkstra: O((V + E) log V)
+        Pada kasus terburuk, di mana V adalah jumlah simpul dan E adalah jumlah tepi/graf, algoritma Dijkstra memiliki kompleksitas waktu sebanding dengan (V + E) log V. Ini terjadi ketika semua simpul dan tepi perlu diperiksa untuk menemukan jalur terpendek. Algoritma ini menggunakan heap untuk mempercepat pencarian jalur terpendek.
+2. Best case:
+    - Algoritma TSP (Brute Force): O(n!)
+        Pada kasus terbaik, kompleksitas waktu algoritma TSP (Brute Force) tetap sama dengan worst case. Hal ini disebabkan karena algoritma ini secara eksplisit memeriksa semua kemungkinan permutasi simpul tanpa memperhitungkan urutan atau struktur graf. Oleh karena itu, tidak ada perbaikan pada kasus terbaik.
+    - Algoritma Dijkstra: O((V + E) log V)
+        Pada kasus terbaik, kompleksitas waktu algoritma Dijkstra tetap sama dengan worst case. Hal ini disebabkan karena algoritma ini harus memeriksa semua simpul dan tepi untuk menemukan jalur terpendek dari simpul awal ke semua simpul lainnya. Oleh karena itu, tidak ada perbaikan pada kasus terbaik.
