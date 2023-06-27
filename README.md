@@ -1,6 +1,6 @@
 # Analisis Nomor 1
 
-## Berikut adalah analisis algoritma Bubble Sort dan Insertion Sort untuk kasus terburuk (worst case), kasus terbaik (best case), dan kasus rata-rata (average case):
+## Berikut adalah analisis Algoritma Bubble Sort dan Algoritma Insertion Sort untuk kasus terburuk (worst case), kasus terbaik (best case), dan kasus rata-rata (average case):
 
 ### Analisis Algoritma Bubble Sort:
 
@@ -58,3 +58,9 @@
         Pada kasus terbaik, kompleksitas waktu algoritma TSP (Brute Force) tetap sama dengan worst case. Hal ini disebabkan karena algoritma ini secara eksplisit memeriksa semua kemungkinan permutasi simpul tanpa memperhitungkan urutan atau struktur graf. Oleh karena itu, tidak ada perbaikan pada kasus terbaik.
     - Algoritma Dijkstra: O((V + E) log V)
         Pada kasus terbaik, kompleksitas waktu algoritma Dijkstra tetap sama dengan worst case. Hal ini disebabkan karena algoritma ini harus memeriksa semua simpul dan tepi untuk menemukan jalur terpendek dari simpul awal ke semua simpul lainnya. Oleh karena itu, tidak ada perbaikan pada kasus terbaik.
+3. Average case:
+   - Algoritma TSP (Brute Force): O(n!)
+        Pada kasus rata-rata, kompleksitas waktu algoritma TSP (Brute Force) tetap sama dengan worst case. Karena algoritma ini memeriksa semua kemungkinan permutasi simpul dengan probabilitas yang sama, tidak ada perbedaan dalam kompleksitas waktu rata-rata.
+   - Algoritma Dijkstra: O((V + E) log V)
+        Pada kasus rata-rata, kompleksitas waktu algoritma Dijkstra tetap sama dengan worst case. Algoritma ini memeriksa semua simpul dan tepi dalam graf dengan menggunakan heap untuk mencari jalur terpendek. Karena jumlah simpul dan tepi memiliki peran dalam kompleksitas waktu, tidak ada perbedaan yang signifikan dalam kasus rata-rata.
+
